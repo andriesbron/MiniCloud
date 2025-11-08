@@ -43,7 +43,9 @@ With this setup, you maintain **full control** over your services, keep everythi
 ```bash
 git clone <your-repo-url>
 cd <your-repo>
+```
 
 2. **Run the deploy script**
 ```bash
 ./deploy.sh
+```
