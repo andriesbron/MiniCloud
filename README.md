@@ -18,25 +18,24 @@ With this setup, you maintain **full control** over your services, keep everythi
   Deploys services in a way fully compatible with [Portainer](https://www.portainer.io/).  
   You can monitor, manage, and configure your stacks visually through the Portainer dashboard.  
 
-- **Automatic Stack Deployment**  
-  Currently supports deploying the following stacks:
-
-  | Stack       | Status |
-  |------------|--------|
-  | filebrowser | ✅ Simple web-based file manager. |
-  | gitea       | ✅ Self-hosted Git service. |
-  | jupyter     | ✅ Interactive notebooks for data science. |
-  | mealie      | ✅ Personal recipe manager. |
-  | nextcloud   | ✅ Private cloud storage and collaboration. |
-  | redis       | ✅ High-performance key-value store. |
-  | sagemath    | ✅ Open-source mathematics software system. |
+✅ **Status:** All stacks deploy automatically using `./deploy.sh` and attach to your existing Docker networks.  
 
 - **Reusable Templates**  
   Docker Compose templates are preprocessed before deployment, replacing paths and environment variables automatically.  
 
 🏋🏿‍♂️ You need more? 🔱 Fork me and submit a pull request!
 ---
+## 🚀 Currently Deployed Stacks
 
+| Emoji | Stack       | Description |
+|-------|------------|-------------|
+| 📁    | filebrowser | Web-based file manager |
+| 🐙    | gitea       | Self-hosted Git service |
+| 📓    | jupyter     | Interactive data science notebooks |
+| 🥗    | mealie      | Personal recipe manager |
+| ☁️    | nextcloud   | Private cloud storage & collaboration |
+| 🧰    | redis       | High-performance key-value store |
+| 📐    | sagemath    | Open-source mathematics system |
 ## ⚡ Quick Start
 
 1. **Clone this repository**
