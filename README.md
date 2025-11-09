@@ -9,7 +9,8 @@ With this setup, you maintain **full control** over your services, keep everythi
 
 ### Todo
 - [ ] Setup Caddy
----
+
+
 
 ## 🌟 Features
 
@@ -30,7 +31,7 @@ With this setup, you maintain **full control** over your services, keep everythi
 - **Reusable Templates**  
   Docker Compose templates are preprocessed before deployment, replacing paths and environment variables automatically.  
 
----
+
 ## 🚀 Currently Deployed Stacks
 
 | Emoji | Stack       | Description |
@@ -43,7 +44,8 @@ With this setup, you maintain **full control** over your services, keep everythi
 | 🧰    | redis       | High-performance key-value store |
 | 📐    | sagemath    | Open-source mathematics system |
 
----
+
+
 ## ⚡ Quick Start
 
 1. **Clone this repository**
