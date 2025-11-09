@@ -3,7 +3,7 @@
 A simple, self-contained system to deploy and manage your favorite services using **Docker** and **Portainer**.
 
 - Developed for Mac Mini
-- **Attention** Not for production use
+- **Attention** Not for production use, solemn for private local hosting in a safe network.
 
 With this setup, you maintain **full control** over your services, keep everything isolated, and can deploy or update stacks with **just one script**.  
 
