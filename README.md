@@ -2,7 +2,8 @@
 
 A simple, self-contained system to deploy and manage your favorite services using **Docker** and **Portainer**.
 
-Developed for Mac Mini, but I guess it might work on other systems as well, because, it is just Docker...
+- Developed for Mac Mini
+- **Attention** Not for production use
 
 With this setup, you maintain **full control** over your services, keep everything isolated, and can deploy or update stacks with **just one script**.  
 
@@ -12,18 +13,21 @@ With this setup, you maintain **full control** over your services, keep everythi
 
 - **Self-control & Simplicity**  
   Launch and manage your services locally without relying on external orchestrators or cloud providers.  
-  All stacks live on your own machine, giving you full visibility and control.  
+  All stacks live on your own machine, giving you full visibility and control.
 
 - **Portainer Integration**  
   Deploys services in a way fully compatible with [Portainer](https://www.portainer.io/).  
-  You can monitor, manage, and configure your stacks visually through the Portainer dashboard.  
+  You can monitor, manage, and configure your stacks visually through the Portainer dashboard.
 
-✅ **Status:** All stacks deploy automatically using `./deploy.sh` and attach to your existing Docker networks.  
+- **Persistent data to local disc**
+  Volumes mounted to host, outside docker registry.
+
+- **Automatic setup and deploy** 
+  All stacks deploy automatically using `./deploy.sh` and attach to your existing Docker networks.  
 
 - **Reusable Templates**  
   Docker Compose templates are preprocessed before deployment, replacing paths and environment variables automatically.  
 
-🏋🏿‍♂️ You need more? 🔱 Fork me and submit a pull request!
 ---
 ## 🚀 Currently Deployed Stacks
 
@@ -36,6 +40,8 @@ With this setup, you maintain **full control** over your services, keep everythi
 | ☁️    | nextcloud   | Private cloud storage & collaboration |
 | 🧰    | redis       | High-performance key-value store |
 | 📐    | sagemath    | Open-source mathematics system |
+
+---
 ## ⚡ Quick Start
 
 1. **Clone this repository**
