@@ -10,7 +10,7 @@ mkdir -p "$VOLUMES_DIR"
 
 for STACK_PATH in "$TEMPLATES_DIR"/*; do
     STACK_NAME=$(basename "$STACK_PATH")
-    template_file="$STACK_PATH/docker-compose.yml.tpl"
+    template_file="$STACK_PATH/docker-compose.yml.template"
     target_file="$DEPLOY_DIR/$STACK_NAME/docker-compose.yml"
 
     mkdir -p "$DEPLOY_DIR/$STACK_NAME"

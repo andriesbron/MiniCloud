@@ -1,0 +1,15 @@
+services:
+  portal:
+    image: python:3.11-slim
+    container_name: minicloud-portal
+    ports:
+      - "8600:8600"
+    environment:
+      - PORTAINER_URL=http://host.docker.internal:9000
+      - PORTAINER_API_TOKEN=portainer_api_token
+    volumes:
+      - {$VOLUMES_DIR}/minicloud-portal/app.py:/app/app.py
+    working_dir: /app
+    command: sh -c "pip install fastapi uvicorn httpx && python app.py"
+    # extra_hosts:
+    #   - "host.docker.internal:host-gateway"

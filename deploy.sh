@@ -15,10 +15,12 @@ TEMPLATES_DIR="library/stack-templates"
 DEPLOY_DIR="stacks"
 mkdir -p "$DEPLOY_DIR"
 mkdir -p "$VOLUMES_DIR"
+mkdir -p "$VOLUMES_DIR/minicloud-portal"
+cp library/minicloud-portal/app.py "$VOLUMES_DIR/minicloud-portal/app.py"
 
 for STACK_PATH in "$TEMPLATES_DIR"/*; do
     STACK_NAME=$(basename "$STACK_PATH")
-    template_file="$STACK_PATH/docker-compose.yml.tpl"
+    template_file="$STACK_PATH/docker-compose.yml.template"
     target_file="$DEPLOY_DIR/$STACK_NAME/docker-compose.yml"
 
     mkdir -p "$DEPLOY_DIR/$STACK_NAME"
@@ -187,7 +189,7 @@ fi
 
 # --- 9️⃣ Prepare directories ---
 mkdir -p "$STACKS_DIR"
-mkdir -p "$PWD/caddy"
+
 
 echo "📁 Stacks directory ready at $STACKS_DIR"
 
