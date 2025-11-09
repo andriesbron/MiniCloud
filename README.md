@@ -66,9 +66,11 @@ chmod +x deploy.sh
 Visit http://localhost:9000 (or your configured Portainer instance) to view and manage your stacks.
 
 ## 🔒 Why This Setup?
-You stay in control — no external dependencies beyond Docker.
-Easy to extend or customize — add new stack templates in library/stack-templates.
-Compatible with Portainer, so you can visually manage networks, volumes, and containers.
+ou stay in control:
+- No external dependencies beyond Docker.
+- Easy to extend or customize
+  - Add new stack templates in library/stack-templates.
+- Compatible with Portainer, so you can visually manage networks, volumes, and containers.
 
 ## 📂 Structure
 ```
