@@ -11,6 +11,7 @@ With this setup, you maintain **full control** over your services, keep everythi
 
 ## 👷‍♂️ Todo
 - [ ] Setup Caddy
+- [ ] Setup Portal page
 
 
 
