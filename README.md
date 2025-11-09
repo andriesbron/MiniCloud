@@ -1,4 +1,4 @@
-# MiniCloud: Docker Stack Launcher
+🖥️ # MiniCloud: Docker Stack Launcher
 
 A simple, self-contained system to deploy and manage your favorite services using **Docker** and **Portainer**.
 
@@ -9,7 +9,7 @@ With this setup, you maintain **full control** over your services, keep everythi
 
 
 
-## Todo
+## 👷‍♂️ Todo
 - [ ] Setup Caddy
 
 
