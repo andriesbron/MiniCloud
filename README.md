@@ -7,6 +7,8 @@ A simple, self-contained system to deploy and manage your favorite services usin
 
 With this setup, you maintain **full control** over your services, keep everything isolated, and can deploy or update stacks with **just one script**.  
 
+### Todo
+[ ] Setup Caddy
 ---
 
 ## 🌟 Features
@@ -67,9 +69,9 @@ Compatible with Portainer, so you can visually manage networks, volumes, and con
 ## 📂 Structure
 ```
 .
-├── deploy.sh                # Launches all stacks
-├── stacks/                  # Processed YAML files for deployment
-└── library/stack-templates/ # Stack templates
+├── deploy.sh                   # Launches all stacks
+├── stacks/                     # Processed YAML files for deployment
+└── library/stack-templates/    # Stack templates
 ```
 
 ## 💡 Tips
