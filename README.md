@@ -65,10 +65,12 @@ Easy to extend or customize — add new stack templates in library/stack-templat
 Compatible with Portainer, so you can visually manage networks, volumes, and containers.
 
 ## 📂 Structure
+```
 .
 ├── deploy.sh                # Launches all stacks
 ├── stacks/                  # Processed YAML files for deployment
 └── library/stack-templates/ # Stack templates
+```
 
 ## 💡 Tips
 - Customize .tpl files for your environment paths or secrets.
