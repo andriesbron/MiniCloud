@@ -85,6 +85,10 @@ ou stay in control:
 - Use Portainer to monitor logs, resource usage, and update stacks seamlessly.
 
 ## 🚀 Next Steps
-- Add new stack templates for additional services.
+- Add new stack templates for additional services
 - Integrate automatic backups for Nextcloud, Mealie, and Gitea.
 - Expand monitoring with Portainer alerts or Prometheus/Grafana.
+
+## 🙋‍♂️ Pull Requests?
+Sure!
+
